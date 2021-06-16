@@ -2,8 +2,11 @@
 # Dyanmic Partitions
 system				ext4	/system												display="System"
 vendor				ext4	/vendor												display="Vendor"
-oppo_product		ext4	/oppo_product										display="oppo_product";
-oppo_engineering	ext4	/oppo_engineering									display="oppo_engineering";
+product				ext4	/product											display="Product"
+odm			    	ext4	/odm												display="odm"
+my_product		    ext4	/my_product										    display="my_product";
+my_engineering	    ext4	/my_engineering									    display="my_engineering";
+my_company  	    ext4    /my_company								            display="my_company";
 preload_common		ext4	/common_preload										display="preload_common";
 
 
