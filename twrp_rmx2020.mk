@@ -18,6 +18,10 @@
 PRODUCT_RELEASE_NAME := rmx2020
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+
+
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/twrp/config/common.mk)
 
